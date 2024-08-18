@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messagegen</title>
+</head>
+<style>
+       body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #131312;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      h1 {
+        color: #151413;
+        margin-bottom: 20px;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      ul li {
+        background: #f6e7e7;
+        margin: 5px 0;
+        padding: 10px;
+        border-left: 4px solid #804a8b; 
+      }
+      
+      p {
+        margin-top: 20px;
+      }
+      
+      em {
+        color: #a37d7d;
+      }
+</style>
+<body>
+  <h1>Instructions to check the code:</h1>
+  <ul>
+    <li>Click the right button on your mouse.</li>
+    <li>Choose "Inspect". Click on it.</li>
+    <li>Click "Console" on the top of the menu.</li>
+    <li>You will see the output logged to the console.</li>
+  </ul>
+  <p>
+    
+  <p>
+</body>
+<script>
+    function greet(name, age) {
+        return age >= 18 ? `Hey ${name}, you are an adult` : `Hey ${name}, you are a child`;
+    }
+    console.log(greet('Ali', 23));
+    console.log(greet('Sara', 5));
+</script>
+</html>
